@@ -1,3 +1,4 @@
+
 ul li:hover {border-bottom: 4px solid #5AE2A9;margin-bottom: -8px;}
 
 button {border-radius:20px;background: linear-gradient(to left,dodgerblue,#5AE2A9);color:#fff;padding:5px 20px;}
@@ -6,7 +7,8 @@ button:hover {background: linear-gradient(to right,dodgerblue,#5AE2A9)}
 
 .jumbotron{display: flex;flex-direction:column;justify-content: center}
 
+.img-div{overflow: hidden;}
 
+.img-front{position:absolute;left:150px;top:-50px;}
 
-/* .img{background-image: url('./images/bg-intro-desktop.svg');background-size: 100% 100%;text-align: right}
-img{width:70%;} */
+.img-back{position: relative;top:-140px;left:0;}
